@@ -1,0 +1,656 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+          <title>MintPorter</title>
+          <link rel="stylesheet" href="./style.css">
+          <link rel="stylesheet" href="https://use.typekit.net/qmm2kax.css">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    </head>
+    <body>
+        <section class="header hidden md:block" id="header">
+            <div class="container mx-auto py-2">
+                <div class="flex justify-end text-white ">
+                    <p class=" text-xs md:text-sm">719.357.6076 </p>
+                    <p class="px-2 text-xs md:text-sm"> | </p>
+                    <p class="text-xs md:text-sm">info@brushcrazy.com</p>
+                    <p class="px-2"> | </p>
+                    <p class=" text-xs md:text-sm">414 Austin Bluffs Parkway, Colorado Spring, CO 80918</p>
+                </div>
+            </div>
+        </section>
+        <section class="navbar" id="navbar">
+          <div class="overlay">
+            <nav class="container mx-auto">
+                <!-- component -->
+        <div class="w-full text-gray-700  dark-mode:text-gray-200 dark-mode:bg-gray-800 pb-3">
+        <div x-data="{ open: false }" class="flex flex-col  ">
+            <div class="pt-2 flex flex-row items-center justify-between">
+                <a href="#" class=" focus:outline-none md:-mt-10">
+                <img src="./assets/Brush_Crazy_Logo_2019_(HIVE).png" style="top: 24px;" class="lg:absolute w-20 md:w-40" alt="">
+                </a>
+            <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline hover:border-yellow-600" @click="open = !open">
+            <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+              <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+              <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+            </button>
+        </div>
+        <nav :class="{'flex': open, 'hidden': !open}"  class="  md:mt-4 flex-col flex-grow pb-4 md:pb-0 hidden lg:flex lg:justify-end lg:flex-row nav-absolute">
+          <a class="px-3 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none font-medium" href="#">CLASSES</a>
+          <a class="px-3 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none font-medium" href="#">PROJECTS</a>
+          <a class="px-3 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none font-medium" href="#">LOCATIONS</a>
+          <a class="px-3 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-facebook " ></i></a>
+          <a class="px-3 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-instagram"></i></a>
+          <a class="px-3 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-twitter"></i></a>
+          <a class="px-3 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-pinterest"></i></a>
+          
+          <button class="font-dark ml-3 px-4 py-2 mt-2 text-md bg-orange text-white  md:mt-0  focus:outline-none font-medium icons-header-float-1">BOOK NOW</button>
+        </nav>
+        </div>
+        </div>
+            </nav>
+          </div>
+        </section>
+
+
+        <section class="section-1">
+            <div class="">
+                <div class="sliderAx ">
+                    <div id="slider-1" class="">
+                      <div class="slider-1 bg-cover bg-center text-white py-24 px-10 object-fill" >
+                         <div class=" container mx-auto margin-responsive" >
+                            <P class="responsive-text text-white bg-orange inline leading-tight font-dark-grit">PAINT KITS TO-GO</P><br>
+                            <P class="responsive-text1 bg-orange inline text-base font-dark font-extralight">Pick up your To-Gogh kit for painting fun at home</P>
+                         </div> 
+                     </div> <!-- container -->
+                    <br>
+                    </div>
+              
+                    <div id="slider-2" class="">
+                        <div class="slider-2 bg-cover bg-center text-white py-24 px-10 object-fill" >
+                          <div class=" container mx-auto  margin-responsive" >
+                            <P class="responsive-text text-white bg-orange inline leading-tight font-dark-grit">PAINT KITS TO-GO</P><br>
+                            <P class="responsive-text1 bg-orange inline text-base font-dark">Pick up your To-Gogh kit for painting fun at home</P>
+                         </div>   
+                       </div> <!-- container -->
+                      <br>
+                      </div>
+                
+                  </div>
+               <div  class="flex justify-between w-12 mx-auto pb-2 absolute mt-10 btn-bottom" style=" left:50%;">
+                      <button id="sButton1" onclick="sliderButton1()" class="bg-white  rounded-full w-4 pb-2 " ></button>
+                  <button id="sButton2" onclick="sliderButton2() " class="bg-white rounded-full w-4 p-2"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="container mx-auto -mt-6 pt-16 mb-20">
+                <div class="grid grid-cols-1 lg:grid-cols-3  bg-white shadow-lg">
+                    <div class="col-span-2 p-8">
+                        <p class="font-dark-grit textblue text-5xl"> The Place To Create</p>
+                        <span class="font-semibold text-gray-700 text-2xl Montserrat">Paint on Canvas, ceramics, wood, and more!</span>
+                        <p class="mt-4 text-gray-800 text-medium Montserrat" style="color: #666666;">
+                            Welcome to Brush Crazy, a tiny universe of painting, crafting, and creating the projects you dare
+                            to dream! Our facility is dedicated to the craft of crafting, and we meet every artist where they
+                            are. If you are a beginner, we’ll show you the ropes. If you’re a pro looking for a little space and
+                            fun to explore something new—we’ll help you set up shop and unleash your skills. We take
+                            pride in offering the perfect artistic haven for your unique creative exploration and expression.
+                            Let us guide you through our 5-Step Process to proven painting success. We know you’ll leave here happy!
+                        </p>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 mt-6">
+                            <button class="bg-orange text-white p-2 ml-3 font-dark-grit1 text-xl">MAKE A RESERVATION </button>
+                            <button class="bg-blue text-white p-2 ml-3 mt-2 lg:mt-0 font-dark-grit1 text-xl">CONTACT US</button>
+                        </div>  
+                    </div>
+                    <div class="">
+                        <img src="./assets/class-1.jpg" class="" style="width: 100%;height: 400px ;" alt="">
+                    </div>
+                  </div>
+            </div>
+            <div class="bg-brushes  ">
+              <div class=" ">
+            <div class="container mx-auto py-20  ">
+                    <p class="text-5xl text-white font-dark-grit text-center relative">FIND A STUDIO LOCATION</p>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-24 my-10 mx-10 lg:mx-0  ">
+                    <div class="grid justify-items-center md:justify-items-start ">
+                        <p class="bg-orange p-3 Montserrat text-white inline banner-absolute" >COLORADO SPRINGS,CO</p>
+                        <div class="relative">
+                          <div class="border-img"></div>
+                          <img class="" style="height:300px;width:100% ;" src="./assets/garden-of-the-gods-colorado-springs-colorado-K394CA7.jpg" alt="">  
+                        </div>
+                      <div class="mx-auto relative"> <button class=" mt-10 bg-white p-2 font-dark-grit text-lg text-orange px-6 text-center ">LEARN MORE</button> </div>
+                    </div>
+                    <div class="grid justify-items-center md:justify-items-start">
+                        <p class="bg-orange p-3 Montserrat text-white inline banner-absolute">COLUMBUS, OH</p>
+                        <div class="relative">
+                          <div class="border-img"></div>
+                          <img class="" style="height:300px;width:100% ;" src="./assets/jason-mowry-pqgnRMqClXQ-unsplash.jpg" alt="">  
+                        </div>
+                       <div class="mx-auto relative"> <button class=" mt-10 bg-white p-2 font-dark-grit text-lg text-orange px-6 text-center ">LEARN MORE</button> </div>
+                    </div>
+                    <div class="grid justify-items-center md:justify-items-start">
+                        <p class="bg-orange p-3 Montserrat text-white inline banner-absolute">GREAT FALLS, MT</p>
+                        <div class="relative">
+                          <div class="border-img"></div>
+                          <img class="" style="height:300px;width:100% ;" src="./assets/steven-mason-hgOB0gmB7Gs-unsplash.jpg" alt="">  
+                        </div>
+                       <div class="mx-auto relative"> <button class=" mt-10 bg-white p-2 font-dark-grit text-lg text-orange px-6 text-center ">LEARN MORE</button> </div> 
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+          </div>
+            <div>
+                <div class="container mx-auto pt-20">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                        <div class="mt-20  " >
+                          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                            <div class="flex-shrink-0">
+                              <div class="step-img"></div>
+                              
+                            </div>
+                            <div class="flex-1 bg-white p-8 flex flex-col justify-between pb-32">
+                              <div class="flex-1">
+                                <a href="#" class="block mt-2">
+                                  <p class="text-lg uppercase  textblue font-dark-grit">
+                                    The Brush Crazy Five-Step Process
+                                  </p>
+                                  <p class="text-4xl textblue font-dark-grit">FIVE STEP PROCESS</p>
+                                  <p class="mt-3 text-base text-gray-600 Montserrat">
+                                    Painting and craft projects at Brush Crazy are super fun and accessible to all of our guests in part
+                                    because we had a crazy idea to create a five-step process to make sure every guest gets the very
+                                    best experience with the right amount of guidance, instruction, and freedom to be uniquely
+                                    creative. </p>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mt-20">
+                          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                            <div class="flex-shrink-0">
+                              <div class="step1-img"></div>
+                            </div>
+                            <div class="flex-1 bg-white pt-8 px-8 flex flex-col justify-between pb-20">
+                              <div class="flex-1">
+                                <a href="#" class="block mt-2">
+                                  <div class="flex justify-start">
+                                    <div class="mr-3 bg-orange text-white text-5xl font-dark-grit h-16 w-16 rounded-full text-center">
+                                      1
+                                    </div>
+                                    <div>
+                                      <p class="text-lg uppercase  textblue font-dark-grit">
+                                        Step One
+                                       </p>
+                                       <p class="text-4xl uppercase textblue font-dark-grit">Pick Your Project</p>
+                                    </div>
+                                  </div> 
+                                  <p class="mt-3 text-base text-gray-600 Montserrat">
+                                    Picking a painting project at Brush Crazy is a big decision! Your options are practically unlimited,
+                                    as we offer a wide variety of painting projects and crafts. We offer freestyle canvas painting and
+                                    traditional sip n’ paint style projects, and craft painting projects to include paint pouring, drip
+                                    painting and more. You’ll also find shelves full of adorable blank figurines, giftable mugs, plates,
+                                    and more—all waiting to be brought to life by your paintbrush </p>                               
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mt-20">
+                          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                            <div class="flex-shrink-0">
+                              <div class="step2-img"></div>
+                            </div>
+                            <div class="flex-1 bg-white pt-8 px-8 flex flex-col justify-between pb-32">
+                              <div class="flex-1">
+                                <a href="#" class="block mt-2">
+                                  <div class="flex justify-start">
+                                    <div class="mr-3 bg-orange text-white text-5xl font-dark-grit h-16 w-16 rounded-full text-center">
+                                      2
+                                    </div>
+                                    <div>
+                                      <p class="text-lg uppercase  textblue font-dark-grit">
+                                        Step Two
+                                       </p>
+                                       <p class="text-4xl uppercase textblue font-dark-grit">Pick Your Paint</p>
+                                    </div>
+                                  </div> 
+                                  <p class="mt-3 text-base text-gray-600 Montserrat">
+                                    Our cheerful and friendly staff will help you follow the project guide that accompanies your
+                                    chosen project, or you are welcome to choose a combination of paints and materials that help
+                                    complete your personal vision. No matter your level of painting experience, our expert staff can
+                                    help guide you along the process to choose the materials and tools you’ll need to complete your
+                                    craft. </p>                               
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mt-20 ">
+                          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                            <div class="flex-shrink-0">
+                              <div class="step3-img"></div>
+                            </div>
+                            <div class="flex-1 bg-white pt-8 px-8 flex flex-col justify-between pb-8">
+                              <div class="flex-1">
+                                <a href="#" class="block mt-2">
+                                  <div class="flex justify-start">
+                                    <div class="mr-3 bg-orange text-white text-5xl font-dark-grit h-16 w-16 rounded-full text-center">
+                                      3
+                                    </div>
+                                    <div>
+                                      <p class="text-lg uppercase  textblue font-dark-grit">
+                                        Step three
+                                       </p>
+                                       <p class="text-4xl uppercase textblue font-dark-grit">Paint Your Project</p>
+                                    </div>
+                                  </div> 
+                                  <p class="mt-3 text-base text-gray-600 Montserrat">
+                                    Whether you are a novice or have years of experience, Brush Crazy meets every artist at their
+                                    level. When you begin painting your project, you’ll be show how to collect and organize the
+                                    appropriate materials. You’ll be presented with a personalized tutorial as needed from our 
+                                    experienced and friendly staff to make sure you understand how to use the tools and materials
+                                    for your project. <br>
+                                    If you have any questions along the way, you can raise a hand or find one of our team members
+                                    who are circulating the shop to ensure all our customers are in good artistic hands! Our staff will
+                                    happily answer your questions and show you various painting techniques</p>                               
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mt-20 " >
+                          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                            <div class="flex-shrink-0">
+                              <div class="step4-img"></div>
+                            </div>
+                            <div class="flex-1 bg-white pt-8 px-8 flex flex-col justify-between pb-16">
+                              <div class="flex-1">
+                                <a href="#" class="block mt-2">
+                                  <div class="flex justify-start">
+                                    <div class="mr-3 bg-orange text-white text-5xl font-dark-grit h-16 w-16 rounded-full text-center">
+                                      4
+                                    </div>
+                                    <div>
+                                      <p class="text-lg uppercase  textblue font-dark-grit">
+                                        Step Four
+                                       </p>
+                                       <p class="text-4xl uppercase textblue font-dark-grit">Let It Dry</p>
+                                    </div>
+                                  </div> 
+                                  <p class="mt-3 text-base text-gray-600 Montserrat">
+                                    Some types of projects—like acrylic paintings—can dry quickly and travel home with you on the
+                                    same day you complete your painting craft project. However, clay crafts and other studio
+                                    projects might need to be left behind for the final stages of finishing. We have a system for this!
+                                    You will be issued a project ticket to accompany your project, and in the event your chosen art
+                                    project needs a little extra TLC to reach that point of finished—we’ll take care of the kiln firing
+                                    and you’ll receive prompt notification when it’s complete! </p>                               
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mt-20">
+                          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                            <div class="flex-shrink-0">
+                              <div class="step5-img"></div>
+                            </div>
+                            <div class="flex-1 bg-white pt-8 px-8 flex flex-col justify-between pb-32">
+                              <div class="flex-1">
+                                <a href="#" class="block mt-2">
+                                  <div class="flex justify-start">
+                                    <div class="mr-3 bg-orange text-white text-5xl font-dark-grit h-16 w-16 rounded-full text-center">
+                                      5
+                                    </div>
+                                    <div>
+                                      <p class="text-lg uppercase  textblue font-dark-grit">
+                                        Step five
+                                       </p>
+                                       <p class="text-4xl uppercase textblue font-dark-grit">Take it Home</p>
+                                    </div>
+                                  </div> 
+                                  <p class="mt-3 text-base text-gray-600 Montserrat">
+                                    If your art project is a same-day-done project, you’ll be able to head home with your project in
+                                    tow. We provide a box or other appropriate protection so that you may transport your finished
+                                    painting project safely. In the event of clay crafts, we will notify you within 5-7 days of when
+                                    your finished project is ready for pick up. </p>                               
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto pt-20">
+                <img src="./assets/footer-banner-3.png" class="" style="width: 100%; height: 60%;">
+            </div>
+            
+        </section>
+        <section class="section-3  ">
+          <div class=" ">
+            <div class="container mx-auto  ">
+              <div class="pt-24 pb-20 w-3/4 relative px-6 lg:px-0">
+                <p class="text-white text-5xl font-dark-grit" style="" >UNIQUE PAINTING PROJECTS</p>
+                <p class="text-white text-2xl Montserrat">We host Sip n Paint,Birthday Parties, Date Night, Team Building, and more!</p>
+                <p class="text-white mt-10 text-lg Montserrat">It’s more than a painting project that you might encounter at a traditional sip n paint, and we
+                  don’t expect people to be tied to an instructional guide without deviation. to produce a cookiecutter paint project, either. You can completely customize your paint project by choosing your
+                  inspiration from our large library and catalog of pre-made projects—and then how you choose
+                  to follow the instructions is entirely up to you. You will have total control over what colors and
+                  materials you use in your project, meaning your project will truly be one-of-a-kind as you see fit.</p>
+                <p class="text-white mt-8 text-lg Montserrat ">Our team will guide you along the way as-needed to share our knowledge and professional
+                    input on materials and tools, but ultimately, we love empowering our customers to really
+                    embrace and trust their inner-artist. Your experience is more than a project, it will be a memory
+                    made</p>
+                    <button class="bg-white p-2 mt-10 mb-10 font-dark-grit text-orange px-8">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-4 py-20">
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3 bg-white shadow-lg">
+              <div class="mx-2 lg:mx-0  ">
+                <img style="height:500px;width: 100%;" src="./assets/126911758_3370027316385340_344885991853344377_n.jpg"   alt="">
+            </div>
+              <div class="col-span-2 mr-0 lg:ml-5 p-3 mt-8">
+                  <p class="font-dark-grit textblue text-2xl"> The Place for 
+                  </p>
+                  <span class="font-dark-grit textblue text-4xl">Crazy Painting Fun!</span>
+                  <p class="text-sm Montserrat textdarkgray mt-6 font-medium">
+                    Whether you’re looking for a painting class, a make-and-take pottery environment, or a place to
+                    explore and expand your painting techniques, our unique and expansive environment will be
+                    sure to knock your socks off. We value our customers’ experience and strive to offer a fun and 
+                    vibrant offer that truly takes the paint n sip, board and brush experience to a whole new level of
+                    crazy fun.
+                  </p>
+                  <p class="text-sm Montserrat textdarkgray mt-4 font-medium">Please check out our website for more detailed info, or send [our team] an email to learn more
+                    about our [locations]. We are excited to meet you and show you the ropes here at Brush Crazy,
+                    and we can’t wait to [book your event] or [reserve your project to go]</p>
+                    <p class="text-sm Montserrat textdarkgray font-medium">Happy Painting!</p>
+                  <div class="grid grid-cols-1 lg:grid-cols-3 mt-10 mb-10">
+                      <button class="bg-orange text-white p-2 ml-3 lg:ml-2 mt-2 lg:mt-0 font-dark-grit text-lg">STUDIO LOCATION </button>
+                      <button class="bg-blue text-white p-2 ml-3 mt-2 lg:ml-2 lg:mt-0 font-dark-grit text-lg">TO-GOGH KITS</button>
+                      <button class="bg-pink text-white p-2 ml-3 mt-2 lg:ml-2 lg:mt-0 font-dark-grit text-lg">BOOK YOUR EVENTS</button>
+                  </div>  
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <section class="section-5 mt-20 mb-20">
+          <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+
+              <div class="form w-4/5 mx-auto md:mx-8">
+                <p class="text-5xl textblue font-dark-grit">MESSAGE US</p>
+                <p class="text-xl Montserrat font-semibold">We're happy to answer any questions you have</p>
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <div class="mt-5">
+                      <input type="text" name="email" id="email" class="py-2 pl-2 border block w-full sm:text-md border-gray-700 font-dark" placeholder="First Name*">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="mt-5">
+                      <input type="text" name="email" id="email" class="py-2 pl-2 border block w-full sm:text-md border-gray-700 font-dark" placeholder="Last Name">
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="mt-4">
+                    <input type="text" name="email" id="email" class="py-2 pl-2 border block w-full sm:text-md border-gray-700 font-dark" placeholder="Email*">
+                  </div>
+                </div>
+                <div>
+                  <div class="mt-4">
+                    <input type="text" name="email" id="email" class="py-2 pl-2 border block w-full sm:text-md border-gray-700 font-dark" placeholder="Phone Number">
+                  </div>
+                </div>
+                <div>
+                  <div class="mt-4">
+                    <textarea  class="py-2 pl-2 border block w-full sm:text-md border-gray-700 font-dark" placeholder="Message"  rows="6" cols="50">
+                     </textarea>
+                     </div>
+                </div>
+                <button class="bg-orange font-dark-grit text-white p-2 mt-3 px-10 ">SUBMIT </button>
+              </div>
+              <div>
+                <img src="./assets/huey_sept_2020.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer">
+          <!-- This example requires Tailwind CSS v2.0+ -->
+<footer class="bg-blue" aria-labelledby="footerHeading">
+  <div class="container  max-w-7xl mx-auto py-12 lg:py-16 ">
+    <div class="mx-3 grid grid-cols-1 md:grid-cols-4 gap-3 justify-items-center lg:justify-items-start">
+      <div class="">
+        <img class="h-40" src="./assets/Brush_Crazy_Logo_2019_(HIVE).png" alt="Company name">
+        <p class="text-white text-base Montserrat mt-8">
+          &copy; Brush Crazy, All rights reserved.
+        </p>
+      </div>
+      <div class="mt-12 md:mt-0 text-center lg:text-left">
+        <h3 class="text-xl text-white tracking-wider uppercase font-dark-grit">
+          CORPORATE CONTACT
+        </h3>
+        <ul class="mt-4 space-y-4">
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start ">
+                <i class="fas fa-map-marker-alt mt-2 mr-3 text-lg"></i> <p class="Montserrat"> 4416 Austin  Bluffs Parkway Colorado Spring, CO 80918</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-base text-white">
+              <div class="flex justify-center md:justify-start">
+                <i class="fas fa-phone-square mt-1 mr-3 text-lg"></i> <p class="Montserrat"> 719.357.6076</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start">
+               <i class="fas fa-envelope mt-1 mr-3 text-lg"></i> <p class="Montserrat">Info@brushcrazy.com</p>
+              </div>
+              
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-base   ">
+              <a class="px-1 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-facebook " ></i></a>
+              <a class="px-1 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-instagram"></i></a>
+              <a class="px-1 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-twitter"></i></a>
+              <a class="px-1 py-2 mt-2 text-lg text-white  md:mt-0  focus:outline-none " href="#"><i class="fab fa-pinterest"></i></a>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="my-12 md:mt-0 text-center lg:text-left">
+        <h3 class="text-xl text-white tracking-wider uppercase font-dark-grit">
+          STUDIO LOCATION
+        </h3>
+        <ul class="mt-4 space-y-4">
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start">
+                <i class="fas fa-map-marker-alt mt-2 mr-3 text-lg"></i> <p class="Montserrat"> 4416 Austin  Bluffs Parkway Colorado Spring, CO 80918</p>
+              </div>
+            </a>
+          </li>
+          
+
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start">
+                <i class="fas fa-map-marker-alt mt-2 mr-3 text-lg"></i> <p class="Montserrat"> 315 Central Avenue Great Falls, MT 59401 406.315.4260</p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start">
+                <i class="fas fa-map-marker-alt mt-2 mr-3 text-lg "></i> <p class="Montserrat"> 1299 Bethel  Road Columbus, OH 43220 614.929.5417</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-center lg:text-left">
+        <h3 class="text-xl font-semibold text-white tracking-wider uppercase font-dark-grit">
+          PAINT REWARDS
+        </h3>
+        <ul class="mt-4 space-y-4">
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start">
+                <i class="fas fa-map-marker-alt mt-2 mr-3 text-lg"></i> <p class="text-xl font-dark-grit"> POiNTS</p>
+              </div>
+              <p class="text-white pl-6 Montserrat">Earn 1 Point for every $1 you Spend.</p>
+              <p class="text-white pl-6 Montserrat">Accumulate 350 points and receive $35 paint money</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start">
+                <i class="fas fa-map-marker-alt mt-2 mr-3 text-lg"></i> <p class="text-xl font-dark-grit"> REWARDS</p>
+              </div>
+              <p class="text-white pl-6 Montserrat">10$ Birthday gifts, monthly rewards, and exclusive deals </p>
+            
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-base text-white ">
+              <div class="flex justify-center md:justify-start">
+                <i class="fas fa-map-marker-alt mt-2 mr-3 text-lg"></i> <p class="text-xl font-dark-grit"> BONUS</p>
+              </div>
+              <p class="text-white pl-6 Montserrat">Earn 25 Points when you register and check in on Facebook.</p>
+            </a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        </section>
+
+        <section class="footer-2">
+          <div class="bg-pink h-16 mt-1"></div>
+          <div class="bg-orange h-10 mt-1"></div>
+          <div class="bg-yellow h-8 mt-1"></div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <script>
+          var cont=0;
+      function loopSlider(){
+        var xx= setInterval(function(){
+              switch(cont)
+              {
+              case 0:{
+                  $("#slider-1").fadeOut(400);
+                  $("#slider-2").delay(400).fadeIn(400);
+                  $("#sButton1").removeClass("bg-purple-800");
+                  $("#sButton2").addClass("bg-purple-800");
+              cont=1;
+              
+              break;
+              }
+              case 1:
+              {
+              
+                  $("#slider-2").fadeOut(400);
+                  $("#slider-1").delay(400).fadeIn(400);
+                  $("#sButton2").removeClass("bg-purple-800");
+                  $("#sButton1").addClass("bg-purple-800");
+                 
+              cont=0;
+              
+              break;
+              }
+              
+              
+              }},8000);
+      
+      }
+      
+      function reinitLoop(time){
+      clearInterval(xx);
+      setTimeout(loopSlider(),time);
+      }
+      
+      
+      
+      function sliderButton1(){
+      
+          $("#slider-2").fadeOut(400);
+          $("#slider-1").delay(400).fadeIn(400);
+          $("#sButton2").removeClass("bg-purple-800");
+          $("#sButton1").addClass("bg-purple-800");
+          reinitLoop(4000);
+          cont=0
+          
+          }
+          
+          function sliderButton2(){
+          $("#slider-1").fadeOut(400);
+          $("#slider-2").delay(400).fadeIn(400);
+          $("#sButton1").removeClass("bg-purple-800");
+          $("#sButton2").addClass("bg-purple-800");
+          reinitLoop(4000);
+          cont=1
+          
+          }
+      
+          $(window).ready(function(){
+              $("#slider-2").hide();
+              $("#sButton1").addClass("bg-purple-800");
+              
+      
+              loopSlider();
+           
+              
+          
+          
+          
+          
+          });
+      
+        
+        </script>
+    </body>
+</html>

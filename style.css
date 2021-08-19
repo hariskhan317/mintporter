@@ -1,0 +1,310 @@
+.header{
+    background-color: #2C8595;
+    
+}
+.navbar{
+    background-image: url('./assets/Paper_7.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.font-dark{
+    font-family: calder-dark,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-dark-grit{
+    font-family: calder-dark-grit,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.font-dark-grit1{
+    font-family: calder-dark-grit,sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.textblue{
+    color: #2F9DAD;
+}
+.textdarkgray{
+    color: #414547;
+}
+.textgray{
+    color: #CCCCCC;
+}
+.text-orange{
+    color: #f0730a;
+}
+.bg-orange{
+    background-color: #f0730a;
+}
+.bg-blue{
+    background-color: #2C8595;
+}
+.bg-pink{
+    background-color: #ec2950;
+}
+.bg-yellow{
+    background-color:  #ffc000;
+}
+.slider-1{
+    background-image: url('./assets/wineparty.jpg');
+    height: 85%;
+}
+.slider-2{
+    background-image: url('./assets/wineparty.jpg');
+    height: 85%;
+}
+.section-2{
+    background-image: url('./assets/Paper_18.jpg');
+    height: auto;
+}
+
+.section-3{
+    background-image: url('./assets/team_bw.jpg');
+    height:auto;
+    width: 100%;
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+}
+.section-3:before{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgb(44, 133, 149,.7);
+    /* background: rgba(0,0,0,.5); */
+}
+ .overlay {
+    background:#2C8595;
+    width: 100%;
+    opacity:0.8;
+  } 
+  .section-4{
+    background-image: url('./assets/Paper_18.jpg');
+    height: auto;
+}
+.banner-absolute{
+position: absolute;
+z-index: 10 !important;
+}
+.border-img{
+    margin-top:12px ;
+    margin-left: 10px;
+    border: 4px solid white;
+    position: absolute;
+    height: 275px;
+    width: 95%;
+}
+.bg-brushes{
+    background-image: url('./assets/paint-brushes-bw.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.bg-brushes:before{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgb(44, 133, 149,.9);
+    /* background: rgba(0,0,0,.5); */
+}
+.step-img{
+    background-image: url('./assets/126885080_3370026659718739_7660936673685492134_n.jpg');
+    height:330px;
+    background-position:top;
+    width: 100%;
+    background-size: cover;
+}
+.step1-img{
+    background-image: url('./assets/126954599_3370027019718703_5207390117603632662_n.jpg');
+    height:330px;
+    background-position:center;
+    width: 100%;
+    background-size: cover;
+}
+.step2-img{
+    background-image: url('./assets/126931304_3370027143052024_2892870443300690863_n.jpg');
+    height:330px;
+    background-position:center;
+    width: 100%;
+    background-size: cover;
+}
+.step3-img{
+    background-image: url('./assets/126992478_3370027629718642_1630257934346552212_n.jpg');
+    height:330px;
+    background-position:right;
+    width: 100%;
+    background-size: cover;
+}
+.step4-img{
+    background-image: url('./assets/127033816_3370027406385331_111295793614941984_n.jpg');
+    height:330px;
+    background-position:bottom;
+    width: 100%;
+    background-size: cover;
+}
+.step5-img{
+    background-image: url('./assets/127019519_3370027243052014_8006841352255420061_n.jpg');
+    height:330px;
+    background-position:top;
+    width: 100%;
+    background-size: cover;
+}
+.responsive-text{
+    font-size: 70px;
+}
+.responsive-text1{
+    font-size: 20px;
+}
+.btn-bottom{
+    top: 90%;
+}
+.margin-responsive{
+margin-top: 300px;
+}
+@media screen and (max-width: 1200px) {
+    .responsive-text{
+        font-size: 40px;
+    }
+    .responsive-text1{
+        font-size: 20px;
+    }
+    .btn-bottom{
+        top: 90%;
+    }
+    .margin-responsive{
+        margin-top: 130px;
+        }
+  }
+  @media screen and (max-width: 1100px) {
+    .responsive-text{
+        font-size: 70px;
+    }
+    .responsive-text1{
+        font-size: 30px;
+    }
+    .btn-bottom{
+        top: 86%;
+    }
+    .margin-responsive{
+        margin-top: 555px;
+        }
+  }
+  @media screen and (max-width: 1024px) {
+    .responsive-text{
+        font-size: 70px;
+    }
+    .responsive-text1{
+        font-size: 30px;
+    }
+    .btn-bottom{
+        top: 86%;
+    }
+    .margin-responsive{
+        margin-top: 755px;
+        }
+  }
+  @media screen and (max-width: 800px) {
+    .responsive-text{
+        font-size: 66px;
+    }
+    .responsive-text1{
+        font-size: 30px;
+    }
+    .btn-bottom{
+        top: 86%;
+    }
+    .margin-responsive{
+        margin-top: 405px;
+        }
+  }
+  @media screen and (max-width: 550px) {
+    .responsive-text{
+        font-size: 40px;
+    }
+    .responsive-text1{
+        font-size: 12px !important;
+    }
+    .btn-bottom{
+        top: 86%;
+    }
+    .margin-responsive{
+        margin-top: 305px;
+        }
+  }
+  @media screen and (max-width: 450px) {
+    .responsive-text{
+        font-size: 26px;
+    }
+    .responsive-text1{
+        font-size: 10px;
+    }
+    .btn-bottom{
+        top: 83%;
+    }
+    .margin-responsive{
+        margin-top: 365px;
+        }
+  }
+  @media screen and (max-width: 380px) {
+    .responsive-text{
+        font-size: 26px;
+    }
+    .responsive-text1{
+        font-size: 10px;
+    }
+    .btn-bottom{
+        top: 83%;
+    }
+    .margin-responsive{
+        margin-top: 265px;
+        }
+  }
+  @media screen and (max-width: 377px) {
+    .responsive-text{
+        font-size: 26px;
+    }
+    .responsive-text1{
+        font-size: 10px;
+    }
+    .btn-bottom{
+        top: 83%;
+    }
+    .margin-responsive{
+        margin-top: 310px;
+        }
+  }
+  @media screen and (max-width: 330px) {
+    .responsive-text{
+        font-size: 26px;
+    }
+    .responsive-text1{
+        font-size: 10px;
+    }
+    .btn-bottom{
+        top: 83%;
+    }
+    .margin-responsive{
+        margin-top: 175px;
+        }
+  }
+  @media screen and (max-width: 300px) {
+    .responsive-text{
+        font-size: 26px;
+    }
+    .responsive-text1{
+        font-size: 10px;
+    }
+    .btn-bottom{
+        top: 83%;
+    }
+    .margin-responsive{
+        margin-top: 235px;
+        }
+  }
+  /*  mt-48 lg:mt-64 */
